@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="779" started-at="2018-06-16T14:22:06Z" finished-at="2018-06-16T14:22:07Z">
+  <suite name="Surefire suite" duration-ms="25895" started-at="2018-08-03T07:29:12Z" finished-at="2018-08-03T07:29:38Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="779" started-at="2018-06-16T14:22:06Z" finished-at="2018-06-16T14:22:07Z">
+    <test name="Surefire test" duration-ms="25895" started-at="2018-08-03T07:29:12Z" finished-at="2018-08-03T07:29:38Z">
+      <class name="runner.RunParallelClasses">
+        <test-method status="PASS" signature="test()" name="test" duration-ms="25823" started-at="2018-08-03T12:59:12Z" finished-at="2018-08-03T12:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- runner.RunParallelClasses -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

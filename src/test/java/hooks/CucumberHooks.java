@@ -1,5 +1,6 @@
 package hooks;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import wdMethods.SeMethods;
@@ -17,8 +18,9 @@ public class CucumberHooks extends SeMethods{
 	
 	
 	@Before(value = "@sanity")
-	public void beginSanity(){
+	public void beginSanity(Scenario sc){
 		startResult();
+		System.out.println(sc.getName());
 		test = startTestCase("Create Lead", "Create a new Lead");
 		test.assignCategory("sanity");
 		test.assignAuthor("Babu");

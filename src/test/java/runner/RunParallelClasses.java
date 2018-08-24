@@ -11,4 +11,5 @@ public class RunParallelClasses {
 		Class[] cls = {JunitRun.class, JunitRun2.class};
 		JUnitCore.runClasses(ParallelComputer.classes(), cls);
 	}
+	
 }
